@@ -31,7 +31,7 @@ export const MainLayout: React.FC<React.PropsWithChildren<MainLayoutProps>> = ({
       <div className="flex min-h-screen w-full flex-col">
         <Navbar routesNavGroup={routesNavGroup} currentHref={currentHref} navGroup={navGroup} />
         <div
-          className="flex min-h-[calc(100vh_-_theme(spacing.84))] flex-1 flex-col gap-4 bg-muted/40 p-4 md:gap-8"
+          className="flex min-h-[calc(100vh_-_theme(spacing.96))] flex-1 flex-col gap-4 bg-muted/40 p-4 md:gap-8"
           style={{ background: `url(${bgPattern}) 20px 20px repeat` }}
         >
           <BreadcrumbComposite />
@@ -54,7 +54,7 @@ export const MainLayout: React.FC<React.PropsWithChildren<MainLayoutProps>> = ({
     <div className="flex min-h-screen w-full flex-col">
       <Navbar routesNavGroup={routesNavGroup} currentHref={currentHref} navGroup={navGroup} />
       <div
-        className="flex min-h-[calc(100vh_-_theme(spacing.84))] flex-1 flex-col gap-4 bg-muted/40 p-4 md:gap-8"
+        className="flex min-h-[calc(100vh_-_theme(spacing.96))] flex-1 flex-col gap-4 bg-muted/40 p-4 md:gap-8"
         style={{ background: `url(${bgPattern}) 20px 20px repeat` }}
       >
         <BreadcrumbComposite />
